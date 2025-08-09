@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4DD32112E47984E00EBD3B1 /* Kyron in Frameworks */ = {isa = PBXBuildFile; productRef = C4DD32102E47984E00EBD3B1 /* Kyron */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EA36C12E0F1A54003B0E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EA36AB2E0F1A53003B0E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EA36B22E0F1A53003B0E81;
+			remoteInfo = Kyron;
+		};
+		C4EA36CB2E0F1A54003B0E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EA36AB2E0F1A53003B0E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EA36B22E0F1A53003B0E81;
+			remoteInfo = Kyron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4DD320E2E47972600EBD3B1 /* Kyron */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Kyron; sourceTree = "<group>"; };
+		C4EA36B32E0F1A53003B0E81 /* KyronApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyronApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA36C02E0F1A54003B0E81 /* KyronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA36CA2E0F1A54003B0E81 /* KyronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C4EA36B52E0F1A53003B0E81 /* KyronApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KyronApp;
+			sourceTree = "<group>";
+		};
+		C4EA36C32E0F1A54003B0E81 /* KyronTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KyronTests;
+			sourceTree = "<group>";
+		};
+		C4EA36CD2E0F1A54003B0E81 /* KyronUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KyronUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EA36B02E0F1A53003B0E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD32112E47984E00EBD3B1 /* Kyron in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36BD2E0F1A54003B0E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36C72E0F1A54003B0E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EA36AA2E0F1A53003B0E81 = {
+			isa = PBXGroup;
+			children = (
+				C4DD320E2E47972600EBD3B1 /* Kyron */,
+				C4EA36B52E0F1A53003B0E81 /* KyronApp */,
+				C4EA36C32E0F1A54003B0E81 /* KyronTests */,
+				C4EA36CD2E0F1A54003B0E81 /* KyronUITests */,
+				C4EA36B42E0F1A53003B0E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EA36B42E0F1A53003B0E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA36B32E0F1A53003B0E81 /* KyronApp.app */,
+				C4EA36C02E0F1A54003B0E81 /* KyronTests.xctest */,
+				C4EA36CA2E0F1A54003B0E81 /* KyronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EA36B22E0F1A53003B0E81 /* KyronApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EA36D42E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronApp" */;
+			buildPhases = (
+				C4EA36AF2E0F1A53003B0E81 /* Sources */,
+				C4EA36B02E0F1A53003B0E81 /* Frameworks */,
+				C4EA36B12E0F1A53003B0E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C4EA36B52E0F1A53003B0E81 /* KyronApp */,
+			);
+			name = KyronApp;
+			packageProductDependencies = (
+				C4DD32102E47984E00EBD3B1 /* Kyron */,
+			);
+			productName = Kyron;
+			productReference = C4EA36B32E0F1A53003B0E81 /* KyronApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EA36BF2E0F1A54003B0E81 /* KyronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EA36D72E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronTests" */;
+			buildPhases = (
+				C4EA36BC2E0F1A54003B0E81 /* Sources */,
+				C4EA36BD2E0F1A54003B0E81 /* Frameworks */,
+				C4EA36BE2E0F1A54003B0E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EA36C22E0F1A54003B0E81 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4EA36C32E0F1A54003B0E81 /* KyronTests */,
+			);
+			name = KyronTests;
+			packageProductDependencies = (
+			);
+			productName = KyronTests;
+			productReference = C4EA36C02E0F1A54003B0E81 /* KyronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EA36C92E0F1A54003B0E81 /* KyronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EA36DA2E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronUITests" */;
+			buildPhases = (
+				C4EA36C62E0F1A54003B0E81 /* Sources */,
+				C4EA36C72E0F1A54003B0E81 /* Frameworks */,
+				C4EA36C82E0F1A54003B0E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EA36CC2E0F1A54003B0E81 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4EA36CD2E0F1A54003B0E81 /* KyronUITests */,
+			);
+			name = KyronUITests;
+			packageProductDependencies = (
+			);
+			productName = KyronUITests;
+			productReference = C4EA36CA2E0F1A54003B0E81 /* KyronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EA36AB2E0F1A53003B0E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C4EA36B22E0F1A53003B0E81 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C4EA36BF2E0F1A54003B0E81 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C4EA36B22E0F1A53003B0E81;
+					};
+					C4EA36C92E0F1A54003B0E81 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C4EA36B22E0F1A53003B0E81;
+					};
+				};
+			};
+			buildConfigurationList = C4EA36AE2E0F1A53003B0E81 /* Build configuration list for PBXProject "Kyron" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EA36AA2E0F1A53003B0E81;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C4EA36B42E0F1A53003B0E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EA36B22E0F1A53003B0E81 /* KyronApp */,
+				C4EA36BF2E0F1A54003B0E81 /* KyronTests */,
+				C4EA36C92E0F1A54003B0E81 /* KyronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EA36B12E0F1A53003B0E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36BE2E0F1A54003B0E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36C82E0F1A54003B0E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EA36AF2E0F1A53003B0E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36BC2E0F1A54003B0E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA36C62E0F1A54003B0E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EA36C22E0F1A54003B0E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EA36B22E0F1A53003B0E81 /* KyronApp */;
+			targetProxy = C4EA36C12E0F1A54003B0E81 /* PBXContainerItemProxy */;
+		};
+		C4EA36CC2E0F1A54003B0E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EA36B22E0F1A53003B0E81 /* KyronApp */;
+			targetProxy = C4EA36CB2E0F1A54003B0E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4EA36D22E0F1A54003B0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4EA36D32E0F1A54003B0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EA36D52E0F1A54003B0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.Kyron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EA36D62E0F1A54003B0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.Kyron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4EA36D82E0F1A54003B0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.KyronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kyron.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kyron";
+			};
+			name = Debug;
+		};
+		C4EA36D92E0F1A54003B0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.KyronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kyron.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kyron";
+			};
+			name = Release;
+		};
+		C4EA36DB2E0F1A54003B0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.KyronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kyron;
+			};
+			name = Debug;
+		};
+		C4EA36DC2E0F1A54003B0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W4CUDEMGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rampantcorgi.KyronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kyron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EA36AE2E0F1A53003B0E81 /* Build configuration list for PBXProject "Kyron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA36D22E0F1A54003B0E81 /* Debug */,
+				C4EA36D32E0F1A54003B0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EA36D42E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA36D52E0F1A54003B0E81 /* Debug */,
+				C4EA36D62E0F1A54003B0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EA36D72E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA36D82E0F1A54003B0E81 /* Debug */,
+				C4EA36D92E0F1A54003B0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EA36DA2E0F1A54003B0E81 /* Build configuration list for PBXNativeTarget "KyronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA36DB2E0F1A54003B0E81 /* Debug */,
+				C4EA36DC2E0F1A54003B0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4DD32102E47984E00EBD3B1 /* Kyron */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Kyron;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C4EA36AB2E0F1A53003B0E81 /* Project object */;
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4DD32112E47984E00EBD3B1 /* Kyron in Frameworks */ = {isa = PBXBuildFile; productRef = C4DD32102E47984E00EBD3B1 /* Kyron */; };
+		C4DD32362E47A51700EBD3B1 /* Kyron in Frameworks */ = {isa = PBXBuildFile; productRef = C4DD32352E47A51700EBD3B1 /* Kyron */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DD32362E47A51700EBD3B1 /* Kyron in Frameworks */,
 				C4DD32112E47984E00EBD3B1 /* Kyron in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +122,7 @@
 			name = KyronApp;
 			packageProductDependencies = (
 				C4DD32102E47984E00EBD3B1 /* Kyron */,
+				C4DD32352E47A51700EBD3B1 /* Kyron */,
 			);
 			productName = Kyron;
 			productReference = C4EA36B32E0F1A53003B0E81 /* KyronApp.app */;
@@ -204,6 +207,7 @@
 			mainGroup = C4EA36AA2E0F1A53003B0E81;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				C4DD32342E47A51700EBD3B1 /* XCLocalSwiftPackageReference "../../Kyron" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C4EA36B42E0F1A53003B0E81 /* Products */;
@@ -570,8 +574,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		C4DD32342E47A51700EBD3B1 /* XCLocalSwiftPackageReference "../../Kyron" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Kyron;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		C4DD32102E47984E00EBD3B1 /* Kyron */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Kyron;
+		};
+		C4DD32352E47A51700EBD3B1 /* Kyron */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Kyron;
 		};

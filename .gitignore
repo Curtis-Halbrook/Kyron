@@ -1,27 +1,9 @@
-# Xcode
-#
-# gitignore contributors: remember to keep this file simple and straightforward
-# See https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
-# and https://github.com/github/gitignore/blob/main/Swift.gitignore
-# for more detailed templates.
-
-## User-specific
 .DS_Store
-*.xcodeproj.xcworkspace
-*.xcodeproj/xcuserdata/
-*.xcscmblueprint
-*.xcschememanagement
-
-## Build generated
-DerivedData/
-build/
-Build/
-
-## Swift Package Manager
 .build/
-Packages/
-*.swiftdoc
-*.swiftmodule
-
-# Other
-.swiftpm
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

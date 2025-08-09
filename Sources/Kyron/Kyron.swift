@@ -218,7 +218,7 @@ extension Kyron {
             }
         }
         
-        /// Called by the `KyronView` for each item as it appears on screen.
+        /// Called by the `Kyron` view for each item as it appears on screen.
         /// This function is responsible for collecting the rendered width of each item.
         func updateWidth(for itemID: AnyHashable, to newWidth: CGFloat) {
             if itemWidths[itemID] != newWidth {
